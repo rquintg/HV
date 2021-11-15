@@ -1,3 +1,27 @@
 .bg{
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
+
+#boton-up{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: #46a2fd;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+#boton-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
